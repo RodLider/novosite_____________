@@ -195,19 +195,19 @@
 
   <div class="info-section">
     <div class="info-block">
-      <img src="https://i.imgur.com/bvcHxas.png" alt="Crédito Agrícola" />
+      <img src="https://i.imgur.com/h8OLLPy.jpeg" alt="Crédito Agrícola" />
       <h3>Crédito para investimento agrícola</h3>
       <p>Você sabia que agora é mais fácil adquirir o seu crédito para investimento agro com as melhores condições do mercado? Taxas de juros quase zero, entrada reduzida e parcelas flexíveis, tudo para tornar a aquisição da sua máquina, terras, fazendas, uma realidade mais acessível.</p>
     </div>
 
     <div class="info-block">
-      <img src="https://i.imgur.com/r1j80Mr.png" alt="Crédito Imobiliário" />
+      <img src="https://i.imgur.com/IeHB7yK.jpeg" alt="Crédito Imobiliário" />
       <h3>Crédito Imobiliário</h3>
       <p>Se você está em busca de condições incríveis para adquirir o seu imóvel, nós temos a solução perfeita para você! Com taxas de juros extremamente competitivas, praticamente a zero, garantimos que você pague menos, com parcelas que cabem no seu bolso.</p>
     </div>
 
     <div class="info-block">
-      <img src="https://i.imgur.com/r3TJuwW.png" alt="Crédito para Veículos" />
+      <img src="https://i.imgur.com/FkYEFVg.jpeg" alt="Crédito para Veículos" />
       <h3>Crédito para Veículos leves</h3>
       <p>Está pronto para conquistar o seu novo carro? Agora, você pode ter as melhores condições para conquistar o veículo dos seus sonhos, com taxas de juros quase zero, entrada reduzida e parcelas que cabem no seu orçamento, tudo com a flexibilidade que você precisa.</p>
     </div>
