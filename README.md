@@ -16,7 +16,7 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('https://i.imgur.com/m1HgDnr.png') no-repeat center center fixed;
+      background: url('https://i.imgur.com/feeaOsL.jpeg') no-repeat center center fixed;
       background-size: cover;
       color: #000;
     }
