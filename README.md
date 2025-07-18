@@ -1,4 +1,3 @@
-
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -168,6 +167,23 @@
         <option>Crédito Agropecuário</option>
       </select>
 
+      <label for="valorInicio">Qual o valor que você tem para iniciar seu investimento?</label>
+      <select id="valorInicio" required>
+        <option value="" disabled selected>Selecione um valor</option>
+        <option value="1500">R$ 1.500</option>
+        <option value="2500">R$ 2.500</option>
+        <option value="3700">R$ 3.700</option>
+        <option value="4500">R$ 4.500</option>
+        <option value="5400">R$ 5.400</option>
+        <option value="6300">R$ 6.300</option>
+        <option value="7500">R$ 7.500</option>
+        <option value="8000">R$ 8.000</option>
+        <option value="9000">R$ 9.000</option>
+        <option value="10000">R$ 10.000</option>
+        <option value="12300">R$ 12.300</option>
+        <option value="15000">R$ 15.000</option>
+      </select>
+
       <label for="valor">Valor do Investimento</label>
       <select id="valor" onchange="atualizarParcelas()" required>
         <option value="" disabled selected>Selecione o valor</option>
@@ -256,15 +272,16 @@
       const tel = document.getElementById("telefone").value.trim();
       const cidade = document.getElementById("cidade").value.trim();
       const investimento = document.getElementById("investimento").value;
+      const valorInicio = document.getElementById("valorInicio").value;
       const valor = document.getElementById("valor").value;
       const parcela = document.getElementById("parcela").value;
 
-      if (!nome || !tel || !cidade || !investimento || !valor || !parcela) {
+      if (!nome || !tel || !cidade || !investimento || !valor || !parcela || !valorInicio) {
         alert("Preencha todos os campos!");
         return;
       }
 
-      const mensagem = `Oi, meu nome é *${nome}*.\nTenho interesse em crédito para investimento.\n\n📍 *Cidade:* ${cidade}\n📞 *Telefone:* ${tel}\n🏠 *Área:* ${investimento}\n💰 *Valor:* R$ ${parseInt(valor).toLocaleString()}\n💳 *Parcela:* R$ ${parseInt(parcela).toLocaleString()}`;
+      const mensagem = `Oi, meu nome é *${nome}*.\nTenho interesse em crédito para investimento.\n\n📍 *Cidade:* ${cidade}\n📞 *Telefone:* ${tel}\n🏠 *Área:* ${investimento}\n💵 *Valor para Início:* R$ ${parseInt(valorInicio).toLocaleString()}\n💰 *Valor desejado:* R$ ${parseInt(valor).toLocaleString()}\n💳 *Parcela:* R$ ${parseInt(parcela).toLocaleString()}`;
       const link = `https://wa.me/5598985315556?text=${encodeURIComponent(mensagem)}`;
       window.open(link, "_blank");
     }
